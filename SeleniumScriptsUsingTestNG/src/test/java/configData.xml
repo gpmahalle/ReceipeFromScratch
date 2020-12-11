@@ -9,7 +9,7 @@
        <class name="com.orangehrmpluging.TestsNGDemo"/> 
     
       
-      
+      <div></div>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
