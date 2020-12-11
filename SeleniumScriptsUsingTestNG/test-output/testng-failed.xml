@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orangehrmpluging.XmlTest2">
+        <methods>
+          <include name="paraTest"/>
+        </methods>
+      </class> <!-- com.orangehrmpluging.XmlTest2 -->
+      <class name="com.orangehrmpluging.DataTest">
+        <methods>
+          <include name="dt" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.orangehrmpluging.DataTest -->
+      <class name="com.orangehrmpluging.TestsNGDemo">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="pimTest"/>
+          <include name="openBrowser"/>
+          <include name="leaveTest"/>
+          <include name="adminTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.orangehrmpluging.TestsNGDemo -->
+      <class name="com.orangehrmpluging.XmlTest">
+        <methods>
+          <include name="paraTest"/>
+        </methods>
+      </class> <!-- com.orangehrmpluging.XmlTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name="uname" value="txtUsername"/>
+  <parameter name="pass" value="txtPassword"/>
+    <classes>
+      <class name="com.orangehrmpluging.XmlTest"/>
+      <class name="com.orangehrmpluging.XmlTest2"/>
+       <class name="com.orangehrmpluging.TestsNGDemo"/> 
+    
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
