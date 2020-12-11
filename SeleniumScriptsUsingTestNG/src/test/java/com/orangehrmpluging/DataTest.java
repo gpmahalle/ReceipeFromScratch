@@ -19,6 +19,10 @@ public class DataTest {
 	  	driver.findElement(By.name("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.name("Submit")).click();
+	  //Gauri Mahalle
+	  driver.findElement(By.name("txtUsername")).sendKeys("Admin");
+		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+		driver.findElement(By.name("Submit")).click();
   }
 
   @DataProvider(name ="dpTest")
